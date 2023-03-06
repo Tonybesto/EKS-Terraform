@@ -23,7 +23,6 @@ variable "zone_offset" {
   type        = number
   description = "CIDR block bits extension offset to calculate Public subnets, avoiding collisions with Private subnets."
 }
-
 variable "admin_users" {
   type        = list(string)
   description = "List of Kubernetes admins."
