@@ -42,3 +42,9 @@ variable "autoscaling_maximum_size_by_az" {
   type        = number
   description = "Maximum number of EC2 instances to autoscale our EKS cluster on each AZ."
 }
+
+variable "autoscaling_average_cpu" {
+  type        = number
+  description = "number of cpu for autoscaling"
+
+}

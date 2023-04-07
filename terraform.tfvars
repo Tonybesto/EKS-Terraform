@@ -1,6 +1,6 @@
 cluster_name            = "tooling-app-eks"
 iac_environment_tag     = "development"
-name_prefix             = "darey-io-eks"
+name_prefix             = "tony-eks"
 main_network_block      = "10.0.0.0/16"
 subnet_prefix_extension = 4
 zone_offset             = 8
